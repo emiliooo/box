@@ -1,0 +1,126 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:OpenSans Italic;
+    src: url("fonts/OpenSans-Italic.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family:Semibold;
+    src: url("fonts/OpenSans-Semibold.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family:LightItalic;
+    src: url("fonts/OpenSans-LightItalic.ttf");
+    font-weight: 100;
+}
+.kontener {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("pics/ll.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.box{
+    width: 310px;
+    height: 434px;
+    margin-left: -155px;
+    top: 230px;
+    position: relative;
+    left: 50%;
+    background-color:white;
+    border-radius:0px 0px 7px 7px;
+
+}
+
+img{
+    width:291px;
+    height:110px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+#line{
+    width:90%;
+    height: 1px;
+    background-color: #bbbbbb;
+    margin:0 auto;
+    margin-top: 20px;
+}
+
+#one
+{
+    font-family: OpenSans Italic;
+    font-size: 18px;
+    width:90%;
+    margin:0 auto;
+    margin-top: 10px;
+}
+strong{
+    color:#2159d6;
+}
+#two{
+    font-family: OpenSans Italic;
+    font-size: 15px;
+    width:90%;
+    margin:0 auto;
+    margin-top: 10px;
+    color:#cccccc;
+}
+#line2{
+    width:100%;
+    height: 1px;
+    background-color: black;
+    margin:0 auto;
+    margin-top:15px;
+    color:#dfdfdf;
+}
+
+textarea{
+    width: 291px;
+    height: 82px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius:5px;
+    font-family: LightItalic;
+    font-size: 12px;
+}
+button {
+    font-family: Semibold;
+    background: #4071df;
+    border-radius: 11px;
+    color: #a9bff1;
+    font-size: 16px;
+    width: 291px;
+    height: 50px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.formName {
+     display: none;
+    width: 100%;
+    height: 20px;
+    border: 1px solid red;
+    position: absolute;
+    text-align: center;
+    background-color: red;
+    color: black;
+    font-size: 20px;
+
+}
