@@ -4,7 +4,6 @@ $(document).ready(function() {
        var text=$('.box').find('textarea#tekst');
        var formName=$('.box').find('span.formName');
 
-
         if(text.val().length>0)
         {
             formName.hide();
@@ -12,7 +11,6 @@ $(document).ready(function() {
 
         else{
             formName.show();
-
         }
     }
 
